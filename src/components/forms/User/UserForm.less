@@ -1,0 +1,96 @@
+.user_form {
+  margin: 0 auto;
+  min-width: 360px;
+  max-width: 360px;
+  margin-bottom: 92px;
+  width: 100%;
+  &__submit {
+    width: 100% !important;
+    border-radius: 20px;
+    background: #DCDEFC;
+    color: #8D97B0;
+    min-height: 40px;
+  }
+  .ant-form-item-label {
+    font-weight: 600;
+  }
+  &__confirm_phone {
+    cursor: pointer;
+    color: #4E5AF2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .ant-form-item-label {
+    font-weight: 600;
+  }
+  .ant-picker {
+    width: 100%;
+  }
+  input {
+    &::placeholder {
+      color: #8D97B0;
+      font-size: 12px;
+    ;
+    }
+  }
+  &__footer{
+    display: flex;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    position: absolute;
+  }
+  &__go_out {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
+.has-error {
+  .ant-input {
+    border-color: red !important;
+  }
+  .ant-input-password {
+    border-color: red;
+  }
+  .ant-picker {
+    border-color: red;
+  }
+  .ant-select-selector {
+    border-color: red;
+  }
+  .ant-input-affix-wrapper {
+    border-color: red;
+  }
+}
+.custom_error {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  > div {
+    display: flex;
+  }
+  > span {
+    color: #FF776F;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+  }
+}
+.none {
+  display: none;
+}
+

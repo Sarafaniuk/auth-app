@@ -1,0 +1,4 @@
+export enum ModalsTypes {
+    SUCCESS_MODAL = 'SUCCESS_MODAL',
+    CONFIRM_ACTION_MODAL = 'CONFIRM_ACTION_MODAL',
+}

@@ -1,0 +1,55 @@
+.side_auth {
+
+  max-width: 600px;
+  min-height: 100vh;
+  background-size: contain !important;
+  padding-top: 92px;
+  padding-left: 64px;
+  padding-right: 42px;
+
+  @media screen and (max-width: 600px) {
+    padding-top: 50px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+
+  .ant-list-item {
+    border-block-end: none;
+  }
+  h1 {
+    font-size: 36px;
+    color: #fff;
+    line-height: 44px;
+    font-weight: 700;
+    padding-bottom: 24px;
+    margin-bottom: 0px;
+    letter-spacing: 0.02em;
+  }
+  span {
+    color: #EDF2FF;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 60px;
+    @media screen and (max-width: 600px) {
+      padding-top: 20px;
+    }
+    .ant-list-item {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      color: white;
+      svg {
+        padding-right: 10px;
+      }
+      @media screen and (max-width: 600px) {
+        padding: 5px 0;
+      }
+    }
+  }
+}

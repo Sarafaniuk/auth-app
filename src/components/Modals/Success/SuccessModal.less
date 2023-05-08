@@ -1,0 +1,39 @@
+@backgroundCustom: linear-gradient(180deg, #8892FF 0%, #6D6BE5 18.75%);
+
+.main{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  background: @backgroundCustom;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  .noVisible {
+    display: none;
+  }
+  .check{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+  }
+  .description{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #EDF2FF;
+  }
+  .close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+}

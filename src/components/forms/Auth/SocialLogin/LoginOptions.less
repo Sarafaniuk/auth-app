@@ -1,0 +1,39 @@
+.auth{
+  &__options {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  &__title {
+    position: relative;
+    text-align: center;
+    color: #8d97b0;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 32px;
+    background-color: #fff;
+    overflow: hidden;
+    &:before{
+    }
+  }
+  &__list{
+    display: flex;
+    justify-content: center;
+  }
+  &__card {
+    margin-right: 16px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #d2d8e8;
+    border-radius: 8px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    width: 104px;
+    &:hover{
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,.16);
+      border-color: transparent;
+    }
+  }
+}

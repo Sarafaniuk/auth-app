@@ -1,0 +1,43 @@
+.auth_page {
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100vh;
+  &__side_bg {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  &__translation {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    align-items: center;
+    width: 100%;
+  }
+  & > div:first-child {
+    background: linear-gradient(180deg, #8892FF 0%, #6D6BE5 18.75%);
+  }
+  & > div:last-child {
+    padding-top: 5%;
+  }
+  &__tab {
+    &_outer {
+      margin: 0 auto;
+      max-width: 360px;
+      .ant-tabs-tab {
+        justify-content: center;
+        margin: 0 !important;
+        width: 50%;
+      }
+      .ant-tabs-nav-list {
+        width: 100%;
+      }
+    }
+  }
+}
